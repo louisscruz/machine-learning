@@ -139,7 +139,7 @@ The gradient descent algorithm is then as follows:
 ```
 repeat until convergence {
   theta~0 := theta~0 - alpha(1/m)(sum~(i=1,m)(h~theta(x^i) - y^i))
-  theta~1 := theta~1 - alpha(1/m)(sum~(i=1,m)(h~theta(x^i) - y^i)) * x^i
+  theta~1 := theta~1 - alpha(1/m)(sum~(i=1,m)(h~theta(x^i) - y^i) * x^i)
 }
 ```
 
